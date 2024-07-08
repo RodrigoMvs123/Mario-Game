@@ -1,4 +1,5 @@
-# Mario-Game
+
+##  Mario-Game
 
 2hrs to code Mario with Auth + save scores | JavaScript, CSS, HTML
 
@@ -8,14 +9,16 @@ https://raw.githubusercontent.com/RodrigoMvs123/Mario-Game/main/README.md
 
 https://github.com/RodrigoMvs123/Mario-Game/blame/main/README.md
 
-https://www.npmjs.com/package/jsdelivr 
-https://kaboomjs.com/
+- https://www.npmjs.com/package/jsdelivr 
+- https://kaboomjs.com/
 
 AppWrite
-https://appwrite.io/ 
+- https://appwrite.io/ 
 
 AppWrite / Personal Projects / Mario
 
+## Source Code 
+```html
 Visual Studio Code
 EXPLORER
 OPEN EDITORS 
@@ -33,7 +36,9 @@ index.html
     
 </body>
 </html>
+```
 
+```html
 Visual Studio Code
 EXPLORER
 OPEN EDITORS 
@@ -90,7 +95,9 @@ index.html
 <script src="game.js"></script>
 </body>
 </html>
+```
 
+```css
 Visual Studio Code
 EXPLORER
 OPEN EDITORS 
@@ -156,9 +163,12 @@ form input[type=submit] {
 h3 {
     color: #fff;
 }
+```
 
 https://fonts.google.com/specimen/VT323?query=vt323 
 
+## Source Code 
+```javascript
 Visual Studio Code
 EXPLORER
 OPEN EDITORS 
@@ -195,19 +205,26 @@ function register(event) {
     }).catch(error => console.error(error))
     event.preventDefault()
 }
+```
 
 Appwrite
-https://appwrite.io/  
-
+- https://appwrite.io/  
+```
 AppWrite / Personal Projects / Mario / Auth 
 Users
 Name     IDENTIFIERS            STATUS     ID           JOINED
 Ania       ania@example.com   unverified   User ID   Sep 19, 2023, 15:03
 Dina       ania@example.com   unverified   User ID   Sep 19, 2023, 15:10
+```
 
-Visual Studio Code
-Terminal 
+### Visual Studio Code
+Terminal
+```bash 
 npm init
+```
+
+## Source Code 
+```json
 
 Visual Studio Code
 EXPLORER
@@ -231,14 +248,18 @@ package.json
   "author": "",
   "license": "ISC"
 }
+```
 
-Visual Studio Code
+### Visual Studio Code
 Terminal 
+```bash
 npm i express
+```
 
 https://www.npmjs.com/package/express 
 
-
+## Source Code 
+```javascript
 Visual Studio Code
 EXPLORER
 OPEN EDITORS 
@@ -260,7 +281,9 @@ const server = app.listen(8000, () => {
     const port = server.address().port
     console.log(`Appstarted at http://localhost:${port}`)
 })
+```
 
+```json
 Visual Studio Code
 EXPLORER
 OPEN EDITORS 
@@ -288,16 +311,22 @@ package.json
     "express": "^4.18.2"
   }
 }
+```
 
-Visual Studio Code
+### Visual Studio Code
 Terminal
+```bash
 npm run start
+```
 
 > mario-game@1.0.0 start
+
 > node index.js
 
 Appstarted at http://localhost:8000
 
+## Source Code 
+```javascript
 Visual Studio Code
 EXPLORER
 OPEN EDITORS 
@@ -342,24 +371,29 @@ function register(event) {
     }).catch(error => console.error(error))
     event.preventDefault()
 }
+```
 
 Appwrite 
-https://appwrite.io/ 
-
+- https://appwrite.io/ 
+```
 AppWrite / Personal Projects / Mario / Databases
 Create database
 Name
 game
 create
 Database Id - 650b2fe269955675ae09 
+```
 
 Create collection 
+```
 Name
 highscores
             Collection Id - 650b30519a8feccf250f
+```
+
 
 AppWrite / Personal Projects / Mario / Databases / game / highscores 
-
+```
 AppWrite / Personal Projects / Mario / Databases / game / highscores / Attributes
 Create Attribute
 Attribute Key
@@ -372,7 +406,8 @@ Create
 Attributes 
 KEY          TYPE
 userid        string
-
+```
+```
 Create Attribute
 Attribute Key
 highscore
@@ -382,7 +417,10 @@ Create
 Attributes 
 KEY             TYPE
 highscore     Integer
+```
 
+## Source Code 
+```javascript
 Visual Studio Code
 EXPLORER
 OPEN EDITORS 
@@ -432,17 +470,19 @@ function register(event) {
     }).catch(error => console.error(error))
     event.preventDefault()
 }
+```
 
 http://localhost:8000/
 
 Appwrite 
-https://appwrite.io/ 
-
+- https://appwrite.io/ 
+```
 AppWrite / Personal Projects / Mario / Databases / game / highscores / Settings / Update Permissions
 Any
 ROLE / CREATE / READ / UPDATE / DELETE
 Update
-
+```
+```
 AppWrite / Personal Projects / Mario / Databases / game / highscores / Indexes
 Create index 
 Index Key
@@ -450,7 +490,10 @@ userId
 Attribute
 userId
 Create
+```
 
+## Source Code 
+```javascript
 Visual Studio Code
 EXPLORER
 OPEN EDITORS 
@@ -786,9 +829,12 @@ function startGame() {
 }
 
 startGame()
+```
 
 https://imgur.com/a/F8Jkryq 
 
+## Source Code
+```html
 Visual Studio Code
 EXPLORER
 OPEN EDITORS 
@@ -849,7 +895,9 @@ index.html
 <script src="game.js"></script>
 </body>
 </html>
+```
 
+```javascript
 Visual Studio Code
 EXPLORER
 OPEN EDITORS 
@@ -1218,7 +1266,9 @@ function startGame() {
 }
 
 startGame()
+```
 
+```html
 Visual Studio Code
 EXPLORER
 OPEN EDITORS 
@@ -1279,7 +1329,9 @@ index.html
 <script src="game.js"></script>
 </body>
 </html>
+```
 
+```javascript
 Visual Studio Code
 EXPLORER
 OPEN EDITORS 
@@ -1705,7 +1757,9 @@ function startGame() {
 }
 
 startGame()
+```
 
+```css
 Visual Studio Code
 EXPLORER
 OPEN EDITORS 
@@ -1775,5 +1829,5 @@ h3 {
     color: #fff;
     margin: 2px;
 }
-
+```
 
